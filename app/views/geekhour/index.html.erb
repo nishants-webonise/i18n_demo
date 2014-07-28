@@ -1,0 +1,9 @@
+<p>
+<%= link_to_unless I18n.locale == :en, "English", locale: :en %>
+|
+<%= link_to_unless I18n.locale == :de, "German", locale: :de %>
+</p>
+
+<h1 style="color: #66bb00;"><%= t :title %></h1>
+<p><%= t :first_para %></p>
+<p><%= t :second_para %></p>
